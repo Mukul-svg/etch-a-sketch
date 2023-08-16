@@ -1,2 +1,2 @@
 # etch-a-sketch
-Etch a sketch project
+Etch a sketch game created with HTML, CSS and JS.
