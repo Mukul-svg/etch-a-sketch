@@ -4,19 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
     <title>Etch-A-Sketch</title>
 </head>
 <body>
-    <h1>Etch-A-Sketch</h1>
+    <h2>Etch-A-Sketch</h2>
     <div class="header">
         <h5>Select the size</h5>
         <button id = "grid-select">Select</button>
     </div>
-    <div class="container"></div>
+    <p id = "message">Current size is 16x16</p>
+    <div class="canvas"></div>
     <div class="footer">
-        <button>Black</button>
-        <button>Random</button>
-        <button>Reset</button>
+        <button onclick="setColor('black')">Black</button>
+        <button onclick="setColor('random')">Random</button>
+        <button onclick="resetCanvas()">Reset</button>
     </div>
 </body>
 </html>
