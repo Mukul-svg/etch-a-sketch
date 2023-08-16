@@ -32,7 +32,7 @@ function getSize(){
         message.innerHTML = "Provide a number";
     }
     else if(input < 1 || input > 100){
-        message.innerHTML = "Prove a number between 1 and 100";
+        message.innerHTML = "Provide a number between 1 and 100";
     }
     else {
         message.innerHTML = "Selected size is " + input +"x" + input;
